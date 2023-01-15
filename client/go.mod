@@ -1,4 +1,4 @@
-module taskClient
+module github.com/topTalent1212/SQSClientServer
 
 go 1.19
 

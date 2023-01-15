@@ -10,5 +10,4 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/joho/godotenv v1.4.0
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/m-murad/ordered-sync-map v0.0.0-20210824075014-dbe832a85004
 )

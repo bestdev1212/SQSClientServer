@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"sync"
 	"time"
-	mp "github.com/m-murad/ordered-sync-map"
+	mp "csgs/src/mymap"
 	"csgs/src/log"
 	"csgs/src/models"
 	"csgs/src/queue"

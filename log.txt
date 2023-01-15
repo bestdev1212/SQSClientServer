@@ -1,5 +1,5 @@
 
-[ADD] z = z
-[ADD] a = a
-[ADD] 1 = 1
-[ALL] Total 3 items: {z: z} {a: a} {1: 1} 
+[ADD] a = itema
+[ADD] z = item-z
+[ADD] 11 = 11-1
+[ALL] Total 3 items: {a: itema} {z: item-z} {11: 11-1} 

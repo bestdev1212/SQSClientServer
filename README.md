@@ -1,4 +1,4 @@
-# Client Server with SQS and golang
+# Client Server with SQS and Golang
 
 ## Multi-threaded client-server demo with Go
 

@@ -1,0 +1,5 @@
+
+[ADD] z = z
+[ADD] a = a
+[ADD] 1 = 1
+[ALL] Total 3 items: {z: z} {a: a} {1: 1} 

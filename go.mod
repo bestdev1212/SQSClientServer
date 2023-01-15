@@ -1,9 +1,14 @@
-module github.com/topTalent1212/SQSClientServer
+// module name
+module csgs
 
-go 1.19
+// go version
+go 1.16
 
+// include libs from github!
 require (
-	github.com/aws/aws-sdk-go v1.44.178 // indirect
-	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/joho/godotenv v1.4.0 // indirect
+	github.com/aws/aws-sdk-go v1.42.12
+	github.com/google/uuid v1.3.0
+	github.com/joho/godotenv v1.4.0
+	github.com/kelseyhightower/envconfig v1.4.0
+	github.com/m-murad/ordered-sync-map v0.0.0-20210824075014-dbe832a85004
 )

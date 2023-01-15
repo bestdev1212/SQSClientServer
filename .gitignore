@@ -1,0 +1,6 @@
+.env
+.idea/
+/server
+/client
+server.log
+env.sample

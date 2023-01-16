@@ -1,27 +1,32 @@
-# Client Server with SQS and Golang
+# Client-Server application using Golang and SQS
 
-## Multi-threaded client-server demo with Go
+## Multi-threaded client-server application using Golang
 
-###### What's implemented
+###### What are implemented in this application
 
 - Multi-threaded server with multiple workers listening to message queue and spawning goroutines in parallel when commands are received. Workers count, polling intervals and other important things are configurable and have meaningful defaults
+
 - Single threaded client (no limitations on how many copies could be started in parallel)
+
 - **Amazon SQS** queue between server and clients
+
 - **sync.Map** to store all key-value pairs.
   It should suit the task better than standard **map[string]interface{}** wrapped with **sync.RWMutex**
+  
 - Logging of debug/errors to the screen (stdout) and logging of all server actions to the specified log file
 
 ###### How to build
 
-On Linux run in terminal
+On Linux, run the following command in terminal:
 
 `make`
 
-You also might need to manually run `go mod tidy` to install project dependencies locally.
+You might also need to manually run `go mod tidy` to install project dependencies locally.
 
 ###### How to start?
 
 You should have an AWS account and working SQS queue.
+
 Please create **.env** from **env.sample** and type all needed credentials there.
 
 Then **make** to compile and start server:
@@ -34,7 +39,7 @@ You could check the server output with command like this:
 
 ###### How to use?
 
-You could send commands with client app:
+You can send commands with client app:
 
 `./client add {key} {value}` - adds {key: value} pair to server memory
 
@@ -55,3 +60,4 @@ Examples to run on terminal :
 
 ./client delete key1
 ```
+Refer to 'requirements.md'
